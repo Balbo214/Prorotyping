@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     float horizontal;
     float vertical;
     public float speed = 5.0f;
+    //public Transform target;
 
-    // Update is called once per frame
     void Update()
     {
         vertical = Input.GetAxis("Vertical");
